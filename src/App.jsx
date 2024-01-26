@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home";
 import Root from "./routes/Root";
@@ -12,6 +13,22 @@ function App() {
           path: "/",
           element: <Home />,
         },
+        {
+          path: "/about",
+          element: "About /"
+        },
+        {
+          path: "/products",
+          element: "Products /"
+        },
+        {
+          path: "/products:id",
+          element: "ProductSingle /"
+        },
+        {
+          path: "/cart",
+          element: "Cart /"
+        }
       ],
     },
   ]);
