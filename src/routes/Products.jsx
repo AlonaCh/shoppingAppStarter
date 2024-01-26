@@ -1,4 +1,4 @@
-import { defaults } from "json-server";
+
 
 const Products = () =>{
     return (
