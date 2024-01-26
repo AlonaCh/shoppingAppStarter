@@ -30,3 +30,15 @@
      - **Task**: Set up a new route and navigation links for the `SinglePage` component.
    - **6.2. User Story (Styling Consistency)**: As a user, I expect the SinglePage component to have a consistent look and feel with the rest of the application for a seamless experience.
      - **Task**: Use Material-UI for designing the `SinglePage` component, ensuring it aligns with the existing style of the application.
+
+Task:
+Create a cartSlice.js that looks almost the same as productSlice.js
+
+It will not have any getProdut in it , or any extra Reducers, these should be empty.
+It should contain an empty array in initialState that is called cart: []
+It will not have any additional logic in there at the moment.
+You will then need to connect this to the store, and check it in the redux dev tools of your chrome
+
+2
+useSelector
+Refactor the Cart page to take the cart array from the redux slice and display a page with all of the items in the cart on it
