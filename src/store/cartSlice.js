@@ -3,12 +3,12 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const cartSlice = createSlice({
     name: "cart",
-    initialState: {
+    initialState: {  //Can we jast write initialState??
         cart: [],
     },
     reducers: {
         addToCart: (state, action) => {
-            state.cart = [...state.cart, action.payload];
+            state.cart = [...state.cart, action.payload];//state.cart + action.payload ??
         },
         // imagine the above as a function:
         //imagine it looks like:
