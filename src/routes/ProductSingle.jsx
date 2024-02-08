@@ -17,7 +17,7 @@ const handleAddToCart = () => {
         <Row xs={1} md={4} className="g-2">
       {Array.from({ length: 4 }).map((_, idx) => (
         <Col key={idx}>
-    <Card style={{width: '18rem', padding: "1rem"}}>
+    <Card style={{width: '16rem', padding: "1rem"}}>
         <Card.Img variant='top' src={image} />
         <Card.Body>
             <Card.Title>{title}</Card.Title>
